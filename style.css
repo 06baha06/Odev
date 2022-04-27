@@ -1,0 +1,26 @@
+.navbar{
+    background-color:white !important;
+}
+body{
+    padding-top: 50px;
+    font-family: 'Raleway', sans-serif;
+}
+.hak{
+    background-color: aliceblue;
+}
+.card-img-top{
+    width: 100%;
+    height: 30vh;
+}
+.bilgi{
+   font-size: 18px;
+   background-color: whitesmoke;
+   margin: 2px;
+}
+.resimslider{
+    height: 600px;
+    width: 100%;
+}
+.resim{
+    text-align: center;
+}
