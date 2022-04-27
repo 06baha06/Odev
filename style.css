@@ -24,3 +24,9 @@ body{
 .resim{
     text-align: center;
 }
+.ilbilgi{
+    font-size: 18px;
+}
+.baslık{
+    font-weight: bolder;
+}
