@@ -30,3 +30,20 @@ body{
 .baslık{
     font-weight: bolder;
 }
+.arkaresim{
+    background-image: url("https://static.daktilo.com/sites/756/uploads/2021/04/24/t.jpg");
+    
+    background-position: center;
+    background-attachment: fixed;
+    height: 600px;
+}
+.takımyazı{
+    font-size: 18px;
+
+}
+.sol{
+    float: left;
+}
+.sag{
+    text-align: justify;
+}
