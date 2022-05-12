@@ -1,163 +1,212 @@
 <!DOCTYPE html>
 <html lang="tr">
-    <head>
-        <!-- Required meta tags -->
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-    
-        <!-- Bootstrap CSS -->
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-            integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-        <link rel="stylesheet" href="style.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
-        <title>Sehrim</title>
-      </head>
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+  <title>Sehrim</title>
+</head>
+
 <body>
-    <nav id="Anasayfa" class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-        <div class="container-fluid">
-            <span class="navbar-brand mb-0 h1">Hoşgeldiniz</span>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="hakkimda.html">Hakkımda</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="özgeçmiş.html">Özgeçmiş</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="sehir.html">Şehrim</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="takım.html">Takımımız</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="ilgialanı.php">İlgi Alanlarım</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="iletisim.html">İletişim</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="giris.html">Giriş</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-    <section class="text-center">
-        <div>
-            
-            <h3 class="il mb-4 font-weight-bold"> KOCAELİ</h3>
-            <hr>
-            <p class="bilgi">Kocaeli, Türkiye'nin bir ili ve en kalabalık onuncu şehridir. Şehir, ülkenin en büyük sanayi ve ticaret kentlerinden biridir. Kocaeli; SEGE-2011 sıralamasına göre İstanbul, Ankara ve İzmir'den sonra en gelişmiş şehirdir. 2022 itibarıyla 2.033.441 kişilik nüfusa sahiptir.Adını 1320 yılında İzmit yöresini fetheden Akça Koca'dan almaktadır. İstanbul, Bursa, Sakarya, Yalova illeriyle komşudur.</p>
-        </div>
-    </section>
-    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
-        </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <a href="#Saatkulesi">
-            <img src="resim/izmit-saat-kulesi.jpg"  class="d-block w-100 resimslider" alt="...">
-          </a>
-          </div>
-          <div class="carousel-item">
-            <a href="#gemi">
-            <img src="resim/gayret.jpg" class="d-block w-100 resimslider" alt="...">
-          </a>
-          </div>
-          <div class="carousel-item">
-            <a href="#sahil">
-            <img src="resim/harikalarsahili05.jpg" class="d-block w-100 resimslider" alt="...">
-          </a>
-          </div>
-          <div class="carousel-item">
-            <a href="#seka">
-            <img src="resim/maxresdefault.jpg" class="d-block w-100 resimslider" alt="...">
-          </a>
-          </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
+  <nav id="Anasayfa" class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <div class="container-fluid">
+      <span class="navbar-brand mb-0 h1">Hoşgeldiniz</span>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="hakkimda.html">Hakkımda</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="özgeçmiş.html">Özgeçmiş</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="sehir.html">Şehrim</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="takim.html">Takımımız</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="ilgialanı.php">İlgi Alanlarım</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="iletisim.html">İletişim</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="giris.html">Giriş</a>
+          </li>
+        </ul>
       </div>
-      <hr><hr>
-      <section class="ilbilgi p-5">
-        <div id="Saatkulesi">
-          <h4  class="mt-2">İzmit Saat Kulesi</h4>
-          <p>
-            34. Osmanlı Padişahı II. Abdülhamid'in tahta çıkışının 25. yıl dönümünü anma amacıyla, İzmit Mutasarrıflığının girişimi sonrasında İzmit Belediyesi tarafından yapımına başlandı. Mimar Vedat tarafından oluşturulan projenin uygulaması, Mihran Azaryan tarafından yapıldı. 1 Eylül 1900'de temeli atılan kulenin ertesi yıl aynı gün tamamlanması hedeflense de süreç gecikti ve Eylül 1902'de, tamamıyla tamamlanamayan kulenin açılışı gerçekleştirildi.
-          </p>
-        </div>
-        <img src="https://www.kulturportali.gov.tr/repoKulturPortali/large/21072014/f0893718-740a-4e21-b848-7b3e2c81683d.jpg?format=jpg&quality=50" class="img-fluid" alt="..." width="300px">
-        <img src="https://www.rotasenin.com/wp-content/uploads/2015/05/izmit-saat-kulesi-kocaeli-gezilecek-yerler.jpg" class="img-fluid" alt="..." width="235px">
-        <img src="https://i2.wp.com/www.kanatsal.com/wp-content/uploads/%C4%B0zmit-Tan%C4%B1t%C4%B1m-2.jpg?resize=960%2C540" class="img-fluid" alt="..." width="626px">
-        <div id="gemi">
-          <h4  class="mt-2">TCG Gayret Müzesi</h4>
-          <p>
-            10 Mayıs 1946 yılında Amerika Birleşik Devletleri tarafından yapılan savaş gemisine USA Everson adı verilmiştir. 1973 yılında USA Everson Gemisi Türk Donanma Komutanlığı'na alınmış ve TCG Gayret adı verilmiştir. TCG Gayret gemisi 20 yılı aşkın süre içinde bir çok önemli görevi başarıyla yerine getirmiştir.1995 yılında hizmet dışına ayrılan gemi, "Müze-Gemi Projesi" kapsamında Kocaeli Valiliği, Kocaeli Büyükşehir Belediyesi ve Donanma Komutanlığı'nın müşterek girişimleri ile modern müzecilik anlayışına göre dekore edilerek 1997 yılında TCG Gayret Müzesi olarak İzmit sahilinde yeni görevine başlamıştır.
-          </p>
-          <img src="https://pbs.twimg.com/media/Epck0-OVgAAREWc.jpg" class="img-fluid" alt="..." width="300px">
-          <img src="https://static.daktilo.com/sites/296/uploads/2021/12/25/whatsapp-image-2021-12-25-at-122008.jpeg" class="img-fluid" alt="..." width="460px">
-          <img src="https://media-cdn.tripadvisor.com/media/photo-s/06/ea/58/87/gayret-gemi-museum.jpg" class="img-fluid" alt="..." width="460px">
-          
-        </div>
-        <div id="sahil" class="hrk">
-          <h4 class="mt-2">Harikalar Sahili</h4>
-          <p>
-            30 bin metrekarelik alanda yer alan Harikalar Sahili’nde masal kahramanlarının örnek alınarak yapıldığı tesisler göz alıcı nitelikte. Güzel vakit geçirmek için bu sahile çocukları ile beraber gelenler aileler mantar, nuhun gemisi, yel değirmeni ve korsan gemisi şeklinde yapılan restoran ve kafeteryalarda yemeklerini yiyip çaylarını yudumlayarak, doyumsuz deniz manzarasını izleyebiliyor. Çocuklar ise hayallerini süsleyen birbirinden renkli masal kahramanları ve oyun alanlarında keyifli vakit geçiriyor.Harikalar Sahili’ne kara yolu ile ulaşımın yanı sıra düzenli vapur seferleri ile ulaşmak ve eşsiz Körfez manzarasında güzel bir gün geçirmek mümkün. Harikalar Sahili'ne özellikle Marmara bölgesinde faaliyet gösteren tur şirketlerinin yoğun ilgisi her geçen gün artmaktadır.
-          </p>
-          <img src="https://gezilmesigerekenyerler.com/wp-content/uploads/harikalarsahili05.jpg" class="img-fluid" alt="..." width="400px">
-          <img src="https://www.kulturportali.gov.tr/repoKulturPortali/large/05062014/51b7e02d-14bb-46a5-b2bb-b08763114c0a.jpg?format=jpg&quality=50" class="img-fluid" alt="..." width="353px">
-          <img src="https://gezilmesigerekenyerler.com/wp-content/uploads/2013/06/harikalarsahili04.jpg" class="img-fluid" alt="..." width="355px">
-        </div>
-        <div id="seka" class="ska">
-          <h4 class="mt-2">Seka Park</h4>
-          <p >
-            Seka Park, 1934 yılında açılan ve 2005 yılına kadar faaliyet gösteren SEKA kağıt fabrikasının kapatılıp arazinin Kocaeli Büyükşehir Belediyesi'ne devredilmesiyle gerçekleşmiş park planıdır. Türkiye’nin en büyük dünyanın sayılı kent parklarından birisidir. Büyüklüğü yaklaşık 580 dönüm olup arazi içerisinde iskele, kağıt müzesi, kent müzesi, oturma alanları, dinlenme sahaları, ışık kuleler.i, balıkçı restoranları, su-ışık gösterileri, denize inen kızak alanları, koşu jogging, yürüme bantları, rıhtım ışıklandırması, kongre salonları, gösteri ve görsel sanat atölyeleri, sergi salonları, kapalı ve açık spor sahaları, festival için mekânlar, gölet, çocuklar için su oyun merkezleri gibi birçok tesis bulunmaktadır. Geçmişte tamamı sanayi tesisi olan bir sahada yer alır. Kıyıda bulunmaktadır.
-          </p>
-          <img src="https://static.daktilo.com/sites/330/uploads/2020/03/28/20200328-2-41600340-53449498-1585395826.jpg" class="img-fluid" alt="..." width="400px">
-          <img src="https://www.azbibak.com/wp-content/uploads/2017/12/sekapark.jpg" class="img-fluid" alt="..." width="470px">
-          <img src="https://gezilmesigerekenyerler.com/wp-content/uploads/2014/12/seka-park-03-e1418573642224.jpg" class="img-fluid" alt="..." width="400px">
-        </div>
-      </section>
-    
-    
-    
-    <div class="bg-dark text-light text-center">
-        <p class="align-middle p-5 mb-0">
-            <span>Tüm Hakları Saklıdır &copy; | 2022</span> <br>
-            <span>Designed by <b>Baha Yıldız</b></span>
-        </p>
     </div>
+  </nav>
+  <section class="text-center">
+    <div>
+
+      <h3 class="il mb-4 font-weight-bold"> KOCAELİ</h3>
+      <hr>
+      <p class="bilgi">Kocaeli, Türkiye'nin bir ili ve en kalabalık onuncu şehridir. Şehir, ülkenin en büyük sanayi ve
+        ticaret kentlerinden biridir. Kocaeli; SEGE-2011 sıralamasına göre İstanbul, Ankara ve İzmir'den sonra en
+        gelişmiş şehirdir. 2022 itibarıyla 2.033.441 kişilik nüfusa sahiptir.Adını 1320 yılında İzmit yöresini fetheden
+        Akça Koca'dan almaktadır. İstanbul, Bursa, Sakarya, Yalova illeriyle komşudur.</p>
+    </div>
+  </section>
+  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+        aria-label="Slide 4"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <a href="#Saatkulesi">
+          <img src="resim/izmit-saat-kulesi.jpg" class="d-block w-100 resimslider" alt="...">
+        </a>
+      </div>
+      <div class="carousel-item">
+        <a href="#gemi">
+          <img src="resim/gayret.jpg" class="d-block w-100 resimslider" alt="...">
+        </a>
+      </div>
+      <div class="carousel-item">
+        <a href="#sahil">
+          <img src="resim/harikalarsahili05.jpg" class="d-block w-100 resimslider" alt="...">
+        </a>
+      </div>
+      <div class="carousel-item">
+        <a href="#seka">
+          <img src="resim/maxresdefault.jpg" class="d-block w-100 resimslider" alt="...">
+        </a>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <hr>
+  <hr>
+  <section class="ilbilgi p-5">
+    <div id="Saatkulesi">
+      <h4 class="mt-2">İzmit Saat Kulesi</h4>
+      <p>
+        34. Osmanlı Padişahı II. Abdülhamid'in tahta çıkışının 25. yıl dönümünü anma amacıyla, İzmit Mutasarrıflığının
+        girişimi sonrasında İzmit Belediyesi tarafından yapımına başlandı. Mimar Vedat tarafından oluşturulan projenin
+        uygulaması, Mihran Azaryan tarafından yapıldı. 1 Eylül 1900'de temeli atılan kulenin ertesi yıl aynı gün
+        tamamlanması hedeflense de süreç gecikti ve Eylül 1902'de, tamamıyla tamamlanamayan kulenin açılışı
+        gerçekleştirildi.
+      </p>
+    </div>
+    <img
+      src="https://www.kulturportali.gov.tr/repoKulturPortali/large/21072014/f0893718-740a-4e21-b848-7b3e2c81683d.jpg?format=jpg&quality=50"
+      class="img-fluid" alt="..." width="300px">
+    <img src="https://www.rotasenin.com/wp-content/uploads/2015/05/izmit-saat-kulesi-kocaeli-gezilecek-yerler.jpg"
+      class="img-fluid" alt="..." width="235px">
+    <img src="https://i2.wp.com/www.kanatsal.com/wp-content/uploads/%C4%B0zmit-Tan%C4%B1t%C4%B1m-2.jpg?resize=960%2C540"
+      class="img-fluid" alt="..." width="626px">
+    <div id="gemi">
+      <h4 class="mt-2">TCG Gayret Müzesi</h4>
+      <p>
+        10 Mayıs 1946 yılında Amerika Birleşik Devletleri tarafından yapılan savaş gemisine USA Everson adı verilmiştir.
+        1973 yılında USA Everson Gemisi Türk Donanma Komutanlığı'na alınmış ve TCG Gayret adı verilmiştir. TCG Gayret
+        gemisi 20 yılı aşkın süre içinde bir çok önemli görevi başarıyla yerine getirmiştir.1995 yılında hizmet dışına
+        ayrılan gemi, "Müze-Gemi Projesi" kapsamında Kocaeli Valiliği, Kocaeli Büyükşehir Belediyesi ve Donanma
+        Komutanlığı'nın müşterek girişimleri ile modern müzecilik anlayışına göre dekore edilerek 1997 yılında TCG
+        Gayret Müzesi olarak İzmit sahilinde yeni görevine başlamıştır.
+      </p>
+      <img src="https://pbs.twimg.com/media/Epck0-OVgAAREWc.jpg" class="img-fluid" alt="..." width="300px">
+      <img src="https://static.daktilo.com/sites/296/uploads/2021/12/25/whatsapp-image-2021-12-25-at-122008.jpeg"
+        class="img-fluid" alt="..." width="460px">
+      <img src="https://media-cdn.tripadvisor.com/media/photo-s/06/ea/58/87/gayret-gemi-museum.jpg" class="img-fluid"
+        alt="..." width="460px">
+
+    </div>
+    <div id="sahil" class="hrk">
+      <h4 class="mt-2">Harikalar Sahili</h4>
+      <p>
+        30 bin metrekarelik alanda yer alan Harikalar Sahili’nde masal kahramanlarının örnek alınarak yapıldığı tesisler
+        göz alıcı nitelikte. Güzel vakit geçirmek için bu sahile çocukları ile beraber gelenler aileler mantar, nuhun
+        gemisi, yel değirmeni ve korsan gemisi şeklinde yapılan restoran ve kafeteryalarda yemeklerini yiyip çaylarını
+        yudumlayarak, doyumsuz deniz manzarasını izleyebiliyor. Çocuklar ise hayallerini süsleyen birbirinden renkli
+        masal kahramanları ve oyun alanlarında keyifli vakit geçiriyor.Harikalar Sahili’ne kara yolu ile ulaşımın yanı
+        sıra düzenli vapur seferleri ile ulaşmak ve eşsiz Körfez manzarasında güzel bir gün geçirmek mümkün. Harikalar
+        Sahili'ne özellikle Marmara bölgesinde faaliyet gösteren tur şirketlerinin yoğun ilgisi her geçen gün
+        artmaktadır.
+      </p>
+      <img src="https://gezilmesigerekenyerler.com/wp-content/uploads/harikalarsahili05.jpg" class="img-fluid" alt="..."
+        width="400px">
+      <img
+        src="https://www.kulturportali.gov.tr/repoKulturPortali/large/05062014/51b7e02d-14bb-46a5-b2bb-b08763114c0a.jpg?format=jpg&quality=50"
+        class="img-fluid" alt="..." width="353px">
+      <img src="https://gezilmesigerekenyerler.com/wp-content/uploads/2013/06/harikalarsahili04.jpg" class="img-fluid"
+        alt="..." width="355px">
+    </div>
+    <div id="seka" class="ska">
+      <h4 class="mt-2">Seka Park</h4>
+      <p>
+        Seka Park, 1934 yılında açılan ve 2005 yılına kadar faaliyet gösteren SEKA kağıt fabrikasının kapatılıp arazinin
+        Kocaeli Büyükşehir Belediyesi'ne devredilmesiyle gerçekleşmiş park planıdır. Türkiye’nin en büyük dünyanın
+        sayılı kent parklarından birisidir. Büyüklüğü yaklaşık 580 dönüm olup arazi içerisinde iskele, kağıt müzesi,
+        kent müzesi, oturma alanları, dinlenme sahaları, ışık kuleler.i, balıkçı restoranları, su-ışık gösterileri,
+        denize inen kızak alanları, koşu jogging, yürüme bantları, rıhtım ışıklandırması, kongre salonları, gösteri ve
+        görsel sanat atölyeleri, sergi salonları, kapalı ve açık spor sahaları, festival için mekânlar, gölet, çocuklar
+        için su oyun merkezleri gibi birçok tesis bulunmaktadır. Geçmişte tamamı sanayi tesisi olan bir sahada yer alır.
+        Kıyıda bulunmaktadır.
+      </p>
+      <img src="https://static.daktilo.com/sites/330/uploads/2020/03/28/20200328-2-41600340-53449498-1585395826.jpg"
+        class="img-fluid" alt="..." width="400px">
+      <img src="https://www.azbibak.com/wp-content/uploads/2017/12/sekapark.jpg" class="img-fluid" alt="..."
+        width="470px">
+      <img src="https://gezilmesigerekenyerler.com/wp-content/uploads/2014/12/seka-park-03-e1418573642224.jpg"
+        class="img-fluid" alt="..." width="400px">
+    </div>
+  </section>
 
 
-    <!-- Optional JavaScript; choose one of the two! -->
 
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
-    </script>
+  <div class="bg-dark text-light text-center">
+    <p class="align-middle p-5 mb-0">
+      <span>Tüm Hakları Saklıdır &copy; | 2022</span> <br>
+      <span>Designed by <b>Baha Yıldız</b></span>
+    </p>
+  </div>
 
-    <!-- Option 2: Separate Popper and Bootstrap JS -->
-    <!--
+
+  <!-- Optional JavaScript; choose one of the two! -->
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+  </script>
+
+  <!-- Option 2: Separate Popper and Bootstrap JS -->
+  <!--
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
     -->
-    
+
 </body>
+
 </html>
