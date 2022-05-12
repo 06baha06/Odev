@@ -12,7 +12,7 @@
             echo"Bilgilerinizi Kontrol Edip Tekrar Giriş Yapın.<br>";
             
             }
-            echo "<p> <a href='giriş.html'>&lt;GERİ DÖN&gt;</a></p> ";
+            echo "<p> <a href='giris.html'>&lt;GERİ DÖN&gt;</a></p> ";
        ?>
     </div>
 

@@ -40,25 +40,25 @@
             <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="hakkımda.html">Hakkımda</a>
+                        <a class="nav-link active" aria-current="page" href="hakkimda.html">Hakkımda</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="özgeçmiş.html">Özgeçmiş</a>
+                        <a class="nav-link" href="özgecmis.html">Özgeçmiş</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="şehir.html">Şehrim</a>
+                        <a class="nav-link" href="sehir.html">Şehrim</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="takım.html">Takımımız</a>
+                        <a class="nav-link" href="takim.html">Takımımız</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="ilgialanı.php">İlgi Alanlarım</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="iletişim.html">İletişim</a>
+                        <a class="nav-link" href="iletisim.html">İletişim</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="giriş.html">Giriş</a>
+                        <a class="nav-link" href="giris.html">Giriş</a>
                     </li>
                 </ul>
             </div>
