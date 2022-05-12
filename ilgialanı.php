@@ -14,7 +14,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
 
-    <title>İletişim</title>
+    <title>İlgi Alanlarım</title>
     <link rel="stylesheet" href="form.js">
     <script src="form.js"></script>
     <style type="text/css">
@@ -133,9 +133,9 @@
         <span>Değişim: <?php echo $JSON['BCH']['degisim']; ?></span>
     </li>
     <li>
-        <span>Litecoin</span>
-        <span>Fiyat: <?php echo $JSON['LTC']['satis']; ?></span>
-        <span>Değişim: <?php echo $JSON['LTC']['degisim']; ?></span>
+        <span>Chiliz</span>
+        <span>Fiyat: <?php echo $JSON['CHZ']['satis']; ?></span>
+        <span>Değişim: <?php echo $JSON['CHZ']['degisim']; ?></span>
     </li>
 </ul>
 </div>
