@@ -23,8 +23,8 @@
             float: none;
         }
         h3{
-            margin-bottom: -4px;
-            padding: 10px;
+            margin-bottom: -50px;
+            padding: 50px;
         }
     </style>
 </head>
@@ -65,7 +65,7 @@
         </div>
     </nav>
     <?php
-    $JSON = json_decode(file_get_contents('https://api.genelpara.com/embed/doviz.json'), true);
+    $JSON = json_decode(file_get_contents('https://api.genelpara.com/embed/para-birimleri.json'), true);
 ?>
 <p>
     <h3>
@@ -73,34 +73,35 @@
     </h3>
 </p>
 <div class="align-middle p-2 mb-0">
-    <ul class="align-center">
-        <li class="">
-            <span>USD</span>
-            <span>Fiyat: <?php echo $JSON['USD']['satis']; ?></span>
-            <span>Değişim: <?php echo $JSON['USD']['degisim']; ?></span>
-        </li>
-        <li>
-            <span>EUR</span>
-            <span>Fiyat: <?php echo $JSON['EUR']['satis']; ?></span>
-            <span>Değişim: <?php echo $JSON['EUR']['degisim']; ?></span>
-        </li>
-        <li>
-            <span>GBP</span>
-            <span>Fiyat: <?php echo $JSON['GBP']['satis']; ?></span>
-            <span>Değişim: <?php echo $JSON['GBP']['degisim']; ?></span>
-        </li>
-        <li>
-            <span>CHF</span>
-            <span>Fiyat: <?php echo $JSON['CHF']['satis']; ?></span>
-            <span>Değişim: <?php echo $JSON['CHF']['degisim']; ?></span>
-        </li>
-        <li>
-            <span>CAD</span>
-            <span>Fiyat: <?php echo $JSON['CAD']['satis']; ?></span>
-            <span>Değişim: <?php echo $JSON['CAD']['degisim']; ?></span>
-        </li>
-     </ul>
+<ul class="align-center">
+    <li>
+        <span>BIST 100</span>
+        <span>Fiyat: <?php echo $JSON['XU100']['satis']; ?></span>
+        <span>Değişim: <?php echo $JSON['XU100']['degisim']; ?></span>
+    </li>
+    <li>
+        <span>DOLAR</span>
+        <span>Fiyat: <?php echo $JSON['USD']['satis']; ?></span>
+        <span>Değişim: <?php echo $JSON['USD']['degisim']; ?></span>
+    </li>
+    <li>
+        <span>EURO</span>
+        <span>Fiyat: <?php echo $JSON['EUR']['satis']; ?></span>
+        <span>Değişim: <?php echo $JSON['EUR']['degisim']; ?></span>
+    </li>
+    <li>
+        <span>BITCOIN</span>
+        <span>Fiyat: <?php echo $JSON['BTC']['satis']; ?></span>
+        <span>Değişim: <?php echo $JSON['BTC']['degisim']; ?></span>
+    </li>
+    <li>
+        <span>ALTIN</span>
+        <span>Fiyat: <?php echo $JSON['GA']['satis']; ?></span>
+        <span>Değişim: <?php echo $JSON['GA']['degisim']; ?></span>
+    </li>
+</ul>
 </div>
+
 <h3>
     Güncel Kripto Para Değerleri
 </h3>
@@ -133,9 +134,9 @@
         <span>Değişim: <?php echo $JSON['BCH']['degisim']; ?></span>
     </li>
     <li>
-        <span>Chiliz</span>
-        <span>Fiyat: <?php echo $JSON['CHZ']['satis']; ?></span>
-        <span>Değişim: <?php echo $JSON['CHZ']['degisim']; ?></span>
+        <span>Litecoin</span>
+        <span>Fiyat: <?php echo $JSON['LTC']['satis']; ?></span>
+        <span>Değişim: <?php echo $JSON['LTC']['degisim']; ?></span>
     </li>
 </ul>
 </div>
